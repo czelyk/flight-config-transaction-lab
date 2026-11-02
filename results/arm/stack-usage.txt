@@ -1,0 +1,106 @@
+fixture.elf-arm_fixture.su
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\tests\arm_fixture.c:11:5:arm_smoke	4672	static
+
+fixture.elf-fc_format.su
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_format.c:6:6:fc_put32	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_format.c:10:10:fc_get32	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_format.c:14:10:fc_crc32	4	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_format.c:25:5:fc_record_encode	32	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_format.c:45:5:fc_record_decode	28	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_format.c:61:6:fc_manifest_encode	8	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_format.c:67:5:fc_manifest_decode	20	static
+
+fixture.elf-fc_store.su
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_store.c:28:12:get_file	136	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_store.c:14:12:put_file	128	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_store.c:8:5:fc_store_init	24	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_store.c:52:5:fc_save	48	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\src\fc_store.c:83:5:fc_load	88	static
+
+fixture.elf-lfs.su
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:627:12:lfs_alloc_lookahead	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:852:12:lfs_dir_traverse_filter	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1916:12:lfs_dir_commit_size	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:5181:12:lfs_fs_size_count	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:44:12:lfs_bd_read	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:4844:12:lfs_fs_parent_match	32	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:912:12:lfs_dir_traverse.constprop	224	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:128:12:lfs_bd_cmp.constprop	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1454:12:lfs_dir_find_match	32	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:4206:12:lfs_init	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:177:12:lfs_bd_flush	40	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:228:12:lfs_bd_prog	48	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1605:12:lfs_dir_commitprog	40	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1933:12:lfs_dir_commit_commit	72	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:719:19:lfs_dir_getslice	72	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1396:12:lfs_dir_getgstate	40	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1414:12:lfs_dir_getinfo	48	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:793:12:lfs_dir_getread.part.0.constprop	56	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3021:12:lfs_ctz_traverse.part.0	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1107:19:lfs_dir_fetchmatch	144	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:4865:19:lfs_fs_parent	72	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1484:19:lfs_dir_find	96	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:2887:12:lfs_ctz_find.constprop	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3500:20:lfs_file_flushedread	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1670:12:lfs_dir_commitcrc	96	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:4701:5:lfs_fs_traverse_	120	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:641:12:lfs_alloc_scan	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:666:12:lfs_alloc	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1816:12:lfs_dir_alloc	40	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3269:12:lfs_file_relocate	72	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3580:20:lfs_file_flushedwrite	104	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3353:12:lfs_file_flush	120	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3708:19:lfs_file_seek_	32	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3664:20:lfs_file_write_	40	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:4805:12:lfs_fs_pred	56	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1953:12:lfs_dir_compact	152	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:1881:12:lfs_dir_split	80	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:2235:12:lfs_dir_relocatingcommit	160	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:2409:12:lfs_dir_orphaningcommit	152	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:5000:12:lfs_fs_deorphan	168	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3434:12:lfs_file_sync_.part.0	40	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:3247:12:lfs_file_close_	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:5131:12:lfs_fs_forceconsistency	96	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:5980:5:lfs_format	120	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6010:5:lfs_mount	120	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6039:5:lfs_unmount	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6054:5:lfs_remove	128	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6070:5:lfs_rename	232	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6085:5:lfs_stat	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6099:13:lfs_getattr	72	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6116:5:lfs_setattr	80	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6134:5:lfs_removeattr	80	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6167:5:lfs_file_opencfg	88	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6187:5:lfs_file_close	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6203:5:lfs_file_sync	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6219:13:lfs_file_read	24	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6237:13:lfs_file_write	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6255:12:lfs_file_seek	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6273:5:lfs_file_truncate	48	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6290:12:lfs_file_tell	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6305:5:lfs_file_rewind	8	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6319:12:lfs_file_size	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6335:5:lfs_mkdir	200	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6350:5:lfs_dir_open	56	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6365:5:lfs_dir_close	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6379:5:lfs_dir_read	48	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6394:5:lfs_dir_seek	56	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6409:12:lfs_dir_tell	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6423:5:lfs_dir_rewind	24	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6437:5:lfs_fs_stat	88	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6451:13:lfs_fs_size	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6465:5:lfs_fs_traverse	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6481:5:lfs_fs_mkconsistent	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6497:5:lfs_fs_gc	64	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs.c:6513:5:lfs_fs_grow	96	static
+
+fixture.elf-lfs_util.su
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\third_party\littlefs\lfs_util.c:17:10:lfs_crc	4	static
+
+fixture.elf-ram_nor.su
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\tests\ram_nor.c:48:12:sy	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\tests\ram_nor.c:7:12:rd	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\tests\ram_nor.c:25:12:pg	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\tests\ram_nor.c:39:12:er	16	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\tests\ram_nor.c:54:6:nor_reset_stats	0	static
+C:\Users\Ahmet\Desktop\flight-config-transaction-lab\tests\ram_nor.c:57:5:nor_configure	40	static

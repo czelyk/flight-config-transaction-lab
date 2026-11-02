@@ -1,0 +1,46 @@
+{
+  "pass_all": true,
+  "candidate_zip_sha256": "dea400ba4737b79c7bfcce3f2ffb4edcf429e6e7dddef16971c8af205dae256a",
+  "candidate": "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\runs\\release-candidate.zip",
+  "extracted_project": "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\runs\\archive-check-1f3068\\flight-config-transaction-lab",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\Ahmet\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "tools/verify.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\Ahmet\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "tools/run_tests.py",
+        "--zig",
+        "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\.tools\\zig-x86_64-windows-0.14.1\\zig.exe"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\Ahmet\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "tools/analyze.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "C:\\Users\\Ahmet\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "tools/replay_case.py"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "exact_csv_matches": {
+    "campaign.csv": "73f3bf2b0cab104807da3f2d4deb2d874570f3bf26a4fa66fed86b9006778837",
+    "costs.csv": "41bb3543a5bbc4e589609edbfbafcb947e908d1378a66b3a7e066588b0bbb3ba",
+    "full_prefix.csv": "5cd4b22e42d465ed7553734adbe68bd25627672f0fb0e6a7e81897b15d0192fc",
+    "full_prefix_costs.csv": "be5e9502462bc1bc59ce7e56aab3cc57d2e0e618e2676badff4a23e637c6505d"
+  },
+  "scope": "Fresh extracted source copy; external pinned local Zig tool reused; no system credentials or original source-path dependency",
+  "final_archive_note": "Final source ZIP adds this verification metadata and a validation summary; implementation bytes remain the same"
+}

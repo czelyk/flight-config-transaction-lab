@@ -1,0 +1,4 @@
+policy,block_size,block_count,program_size,payload_per_group,aged_updates,read_calls,read_bytes,program_calls,program_bytes,erase_calls,erase_bytes,sync_calls
+sequential,512,64,16,128,24,49,1840,12,576,3,1536,6
+bundle,512,64,16,128,24,55,1984,8,448,1,512,2
+manifest,512,64,16,128,24,1478,28640,21,1136,5,2560,9

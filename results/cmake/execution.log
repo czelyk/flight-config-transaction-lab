@@ -1,0 +1,35 @@
+["cmake", "-S", "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab", "-B", "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\build-cmake-fresh", "-G", "Ninja", "-DCMAKE_MAKE_PROGRAM=C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\.venv\\Scripts\\ninja.exe", "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\cmake\\zig-windows.cmake", "-DZIG_EXECUTABLE=C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\.tools\\zig-x86_64-windows-0.14.1\\zig.exe", "-DCMAKE_BUILD_TYPE=Debug"]
+-- The C compiler identification is Clang 19.1.7
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Users/Ahmet/Desktop/flight-config-transaction-lab/.tools/zig-x86_64-windows-0.14.1/zig.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh
+["cmake", "--build", "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\build-cmake-fresh"]
+[1/12] Building C object CMakeFiles/littlefs.dir/third_party/littlefs/lfs_util.c.obj
+[2/12] Building C object CMakeFiles/flight_config.dir/src/fc_format.c.obj
+[3/12] Building C object CMakeFiles/flight_config.dir/src/fc_store.c.obj
+[4/12] Building C object CMakeFiles/fc_unit.dir/tests/ram_nor.c.obj
+[5/12] Building C object CMakeFiles/fc_campaign.dir/tests/ram_nor.c.obj
+[6/12] Building C object CMakeFiles/fc_unit.dir/tests/unit.c.obj
+[7/12] Building C object CMakeFiles/fc_campaign.dir/tests/campaign.c.obj
+[8/12] Building C object CMakeFiles/littlefs.dir/third_party/littlefs/lfs.c.obj
+[9/12] Linking C static library liblittlefs.a
+[10/12] Linking C static library libflight_config.a
+[11/12] Linking C executable fc_unit.exe
+[12/12] Linking C executable fc_campaign.exe
+["ctest", "--test-dir", "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\build-cmake-fresh", "--output-on-failure"]
+Test project C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh
+    Start 1: unit
+1/3 Test #1: unit .............................   Passed    0.13 sec
+    Start 2: sampled_power_cuts
+2/3 Test #2: sampled_power_cuts ...............   Passed    2.67 sec
+    Start 3: complete_prefix_trace
+3/3 Test #3: complete_prefix_trace ............   Passed    2.85 sec
+
+100% tests passed out of 3
+
+Total Test time (real) =   5.66 sec

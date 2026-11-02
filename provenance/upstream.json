@@ -1,0 +1,50 @@
+{
+  "project": "littlefs",
+  "release": "v2.11.3",
+  "commit": "6cb4e86540eca0d9ba62500a298385c9d863c8be",
+  "license": "BSD-3-Clause",
+  "files": [
+    {
+      "path": "third_party/littlefs/lfs.c",
+      "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/6cb4e86540eca0d9ba62500a298385c9d863c8be/lfs.c",
+      "sha256": "a36d6a095785ddea9571d541d68d3e4ef01d5b255a99d17d3f07fb6ea60ea132",
+      "bytes": 197942
+    },
+    {
+      "path": "third_party/littlefs/lfs.h",
+      "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/6cb4e86540eca0d9ba62500a298385c9d863c8be/lfs.h",
+      "sha256": "b1befd7288d08815accc8f9af744c55686c0b9e3ac0061c32ceee38a1b3eb96d",
+      "bytes": 26833
+    },
+    {
+      "path": "third_party/littlefs/lfs_util.c",
+      "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/6cb4e86540eca0d9ba62500a298385c9d863c8be/lfs_util.c",
+      "sha256": "f2fbde533670560434bd9f5a547174cc7c5a4670a02c47b4bd85180dced8b2ec",
+      "bytes": 988
+    },
+    {
+      "path": "third_party/littlefs/lfs_util.h",
+      "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/6cb4e86540eca0d9ba62500a298385c9d863c8be/lfs_util.h",
+      "sha256": "548d46aa524dc7449e16739286c1a422a52f9de727ff0be0c2ffc5593f5ca981",
+      "bytes": 8049
+    },
+    {
+      "path": "third_party/littlefs/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/6cb4e86540eca0d9ba62500a298385c9d863c8be/LICENSE.md",
+      "sha256": "0cb4ff1daf5fdc1359c6a6ee3116092f08fc100c9d58b1b77ab17bfd801f856d",
+      "bytes": 1523
+    },
+    {
+      "path": "third_party/littlefs/README.md",
+      "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/6cb4e86540eca0d9ba62500a298385c9d863c8be/README.md",
+      "sha256": "567ca1c81fa0fde6cc4230f010678fca4a0794ce9572d803dbbe2a1948bf2ac5",
+      "bytes": 13676
+    },
+    {
+      "path": "third_party/littlefs/DESIGN.md",
+      "url": "https://raw.githubusercontent.com/littlefs-project/littlefs/6cb4e86540eca0d9ba62500a298385c9d863c8be/DESIGN.md",
+      "sha256": "2a8b3459d74b9fa8bdd947738522c46331739405b1fc3d70f057f636a1dea768",
+      "bytes": 96235
+    }
+  ]
+}
