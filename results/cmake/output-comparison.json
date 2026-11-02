@@ -1,0 +1,9 @@
+{
+  "matches_optimized": true,
+  "lf_normalized_sha256": {
+    "campaign.csv": "73f3bf2b0cab104807da3f2d4deb2d874570f3bf26a4fa66fed86b9006778837",
+    "costs.csv": "41bb3543a5bbc4e589609edbfbafcb947e908d1378a66b3a7e066588b0bbb3ba",
+    "full_prefix.csv": "5cd4b22e42d465ed7553734adbe68bd25627672f0fb0e6a7e81897b15d0192fc",
+    "full_prefix_costs.csv": "be5e9502462bc1bc59ce7e56aab3cc57d2e0e618e2676badff4a23e637c6505d"
+  }
+}

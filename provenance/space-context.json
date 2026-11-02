@@ -1,0 +1,6 @@
+{
+  "commit": "15ebbf3db89f9102ff16e9f66e7302d5fa32fba0",
+  "url": "https://raw.githubusercontent.com/nasa/fprime/15ebbf3db89f9102ff16e9f66e7302d5fa32fba0/Svc/PrmDb/docs/sdd.md",
+  "sha256": "1181d6952b837d9c3db0bbcb9df019ed24ee4dff56e8fe6c0a8a14f66e61f045",
+  "role": "Spacecraft parameter persistence context only; not imported implementation or demonstrated upstream defect"
+}

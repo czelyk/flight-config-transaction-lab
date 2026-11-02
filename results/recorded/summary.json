@@ -1,0 +1,87 @@
+{
+  "total_records": 11002,
+  "interrupted_trials": 10963,
+  "acknowledged_controls": 39,
+  "outcomes": {
+    "sampled": {
+      "sequential": {
+        "new": 32,
+        "old": 410,
+        "mixed_storage": 880
+      },
+      "bundle": {
+        "new": 39,
+        "old": 1053
+      },
+      "manifest": {
+        "new": 46,
+        "old": 1721
+      }
+    },
+    "full-prefix": {
+      "sequential": {
+        "new": 2,
+        "old": 708,
+        "mixed_storage": 1418
+      },
+      "bundle": {
+        "new": 14,
+        "old": 956
+      },
+      "manifest": {
+        "new": 4,
+        "old": 3719
+      }
+    }
+  },
+  "cost_example": [
+    {
+      "policy": "sequential",
+      "block_size": "512",
+      "block_count": "64",
+      "program_size": "16",
+      "payload_per_group": "128",
+      "aged_updates": "24",
+      "read_calls": "49",
+      "read_bytes": "1840",
+      "program_calls": "12",
+      "program_bytes": "576",
+      "erase_calls": "3",
+      "erase_bytes": "1536",
+      "sync_calls": "6"
+    },
+    {
+      "policy": "bundle",
+      "block_size": "512",
+      "block_count": "64",
+      "program_size": "16",
+      "payload_per_group": "128",
+      "aged_updates": "24",
+      "read_calls": "55",
+      "read_bytes": "1984",
+      "program_calls": "8",
+      "program_bytes": "448",
+      "erase_calls": "1",
+      "erase_bytes": "512",
+      "sync_calls": "2"
+    },
+    {
+      "policy": "manifest",
+      "block_size": "512",
+      "block_count": "64",
+      "program_size": "16",
+      "payload_per_group": "128",
+      "aged_updates": "24",
+      "read_calls": "1478",
+      "read_bytes": "28640",
+      "program_calls": "21",
+      "program_bytes": "1136",
+      "erase_calls": "5",
+      "erase_bytes": "2560",
+      "sync_calls": "9"
+    }
+  ],
+  "all_retry_checks_passed": true,
+  "physical_tests": false,
+  "reliability_probability_estimated": false
+}

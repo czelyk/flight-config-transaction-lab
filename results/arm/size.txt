@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  20028	      0	  36160	  56188	   db7c	C:\Users\Ahmet\Desktop\flight-config-transaction-lab\runs\20261101T145103Z_arm_8ff675\fixture.elf

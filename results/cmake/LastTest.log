@@ -1,0 +1,51 @@
+Start testing: Nov 01 17:51 Turkey Standard Time
+----------------------------------------------------------
+1/3 Testing: unit
+1/3 Test: unit
+Command: "C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh/fc_unit.exe"
+Directory: C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh
+"unit" start time: Nov 01 17:51 Turkey Standard Time
+Output:
+----------------------------------------------------------
+PASS: CRC vector, wire bounds, malformed/corrupt records, bank validation, generation wrap, 81 durable saves, NOR rules
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"unit" end time: Nov 01 17:51 Turkey Standard Time
+"unit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: sampled_power_cuts
+2/3 Test: sampled_power_cuts
+Command: "C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh/fc_campaign.exe"
+Directory: C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh
+"sampled_power_cuts" start time: Nov 01 17:51 Turkey Standard Time
+Output:
+----------------------------------------------------------
+{"campaign":"sampled","rows":4181,"mixed_storage_negative_controls":880,"failures":0}
+<end of output>
+Test time =   2.67 sec
+----------------------------------------------------------
+Test Passed.
+"sampled_power_cuts" end time: Nov 01 17:51 Turkey Standard Time
+"sampled_power_cuts" time elapsed: 00:00:02
+----------------------------------------------------------
+
+3/3 Testing: complete_prefix_trace
+3/3 Test: complete_prefix_trace
+Command: "C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh/fc_campaign.exe" "--full-prefix"
+Directory: C:/Users/Ahmet/Desktop/flight-config-transaction-lab/build-cmake-fresh
+"complete_prefix_trace" start time: Nov 01 17:51 Turkey Standard Time
+Output:
+----------------------------------------------------------
+{"campaign":"full-prefix","rows":6821,"mixed_storage_negative_controls":1418,"failures":0}
+<end of output>
+Test time =   2.85 sec
+----------------------------------------------------------
+Test Passed.
+"complete_prefix_trace" end time: Nov 01 17:51 Turkey Standard Time
+"complete_prefix_trace" time elapsed: 00:00:02
+----------------------------------------------------------
+
+End testing: Nov 01 17:51 Turkey Standard Time

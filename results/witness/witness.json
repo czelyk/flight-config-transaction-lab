@@ -1,0 +1,53 @@
+{
+  "pass_replay": true,
+  "reference_run": "C:\\Users\\Ahmet\\Desktop\\flight-config-transaction-lab\\runs\\20261101T144428Z_71b0e2",
+  "coordinates": [
+    "0",
+    "512",
+    "64",
+    "16",
+    "16",
+    "0",
+    "1",
+    "64"
+  ],
+  "expected": {
+    "policy": "sequential",
+    "block_size": "512",
+    "block_count": "64",
+    "payload_per_group": "16",
+    "aged_updates": "0",
+    "cut_operation": "1",
+    "prefix_bytes": "64",
+    "operation_kind": "P",
+    "operation_size": "64",
+    "acknowledged": "0",
+    "outcome": "mixed_storage",
+    "generation0": "2",
+    "generation1": "1",
+    "generation2": "1",
+    "recovery_read_calls": "123",
+    "recovery_read_bytes": "3600",
+    "retry_ok": "1"
+  },
+  "observed": {
+    "policy": "sequential",
+    "block_size": "512",
+    "block_count": "64",
+    "payload_per_group": "16",
+    "aged_updates": "0",
+    "cut_operation": "1",
+    "prefix_bytes": "64",
+    "operation_kind": "P",
+    "operation_size": "64",
+    "acknowledged": "0",
+    "outcome": "mixed_storage",
+    "generation0": "2",
+    "generation1": "1",
+    "generation2": "1",
+    "recovery_read_calls": "123",
+    "recovery_read_bytes": "3600",
+    "retry_ok": "1"
+  },
+  "physical_test": false
+}

@@ -1,0 +1,2 @@
+policy,block_size,block_count,program_size,payload_per_group,aged_updates,read_calls,read_bytes,program_calls,program_bytes,erase_calls,erase_bytes,sync_calls
+sequential,512,64,16,16,0,332,6608,6,352,1,512,3

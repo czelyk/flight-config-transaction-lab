@@ -1,0 +1,2 @@
+policy,block_size,block_count,payload_per_group,aged_updates,cut_operation,prefix_bytes,operation_kind,operation_size,acknowledged,outcome,generation0,generation1,generation2,recovery_read_calls,recovery_read_bytes,retry_ok
+sequential,512,64,16,0,1,64,P,64,0,mixed_storage,2,1,1,123,3600,1
